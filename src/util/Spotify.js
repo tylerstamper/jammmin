@@ -1,6 +1,6 @@
 const clientId = '2d982cba485d4c2c9b1c9fdd90c3b471';
 let accessToken;
-const redirectUri = 'http://localhost:3000/callback/';
+const redirectUri = 'https://elastic-kalam-95a1f2.netlify.app/callback/';
 let userId;
 const Spotify = {
   getAccessToken() {
