@@ -1,0 +1,32 @@
+.Playlists{
+    width: 40%;
+    min-height: 300px;
+    background-color: rgba(1, 12, 63, 0.7);
+    max-height: 950px;
+    overflow-y: scroll;
+    padding: 0.88rem;
+    box-shadow: 0 4px 2px 2px #000000;
+    margin: 0 auto 2rem auto;
+}
+
+.Playlist-information{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.8);
+}
+.Playlist-information h3{
+    margin: 0.125rem auto;
+}
+@media only screen and (max-width: 1020px) {
+    .Playlists {
+      width: 35%;
+      margin-bottom: 2rem;
+    }
+  }
+@media only screen and (max-width: 460px) {
+    .Playlists{
+        width: 70%;
+    }
+}
