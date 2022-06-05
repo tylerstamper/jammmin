@@ -1,4 +1,4 @@
-const clientId = '2d982cba485d4c2c9b1c9fdd90c3b471';
+const clientId = '*****';
 let accessToken;
 const redirectUri = 'https://elastic-kalam-95a1f2.netlify.app/callback/';
 let userId;
